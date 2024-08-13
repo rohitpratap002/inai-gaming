@@ -1,0 +1,59 @@
+.gridContainer{
+    width: 100%;
+    justify-content: center;
+    padding: 0 15rem;
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.gridContainer .gridCard{
+    border: 3px solid rgba(255, 255, 255, .16);
+    border-radius: 1rem;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.gridContainer .gridCard h1{
+    font-size: 2.2rem;
+    font-weight: 800;
+    padding: 5rem 5rem 3rem 5rem;
+}
+.gridContainer .gridCard p{
+    font-size: 1.7rem;
+    font-weight: 300;
+    padding: 0rem 5rem 3rem 5rem;
+}
+.gridContainer .gridCard .imgDiv{
+    padding: 4rem 0;
+    background: #2B64F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridContainer.grid2{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 5rem;
+}
+.gridContainer .gridContainer2{
+    display: grid;
+    grid-template-rows: 1fr 1.1fr;
+    gap: 2rem;
+}
+.gridContainer2 .gridCard{
+    border: 3px solid rgba(255, 255, 255, .16);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    overflow: hidden;
+}
+.gridContainer2 .gridCard p{
+    padding: 0rem 5rem 5rem 5rem;
+}
+.gridContainer2 .gridCard .imgDiv{
+    padding: 4rem;
+}
