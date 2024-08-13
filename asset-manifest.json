@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.be07e7c3.css",
-    "main.js": "/static/js/main.4023d5a5.js",
-    "static/js/453.b4d9725c.chunk.js": "/static/js/453.b4d9725c.chunk.js",
-    "static/media/heroImg.png": "/static/media/heroImg.ae299ef225bc353b78bc.png",
-    "static/media/home-back.png": "/static/media/home-back.43dc8ca4bc274194c487.png",
-    "static/media/contact.png": "/static/media/contact.ba0a7be9b955f0a1b138.png",
-    "static/media/money (1).svg": "/static/media/money (1).6b1afc69517ae2d8a73f34284a51931b.svg",
-    "static/media/bar-chart.svg": "/static/media/bar-chart.9715d774298a9529067dfc49fcc2e75a.svg",
-    "index.html": "/index.html",
-    "static/media/tick.svg": "/static/media/tick.ccc5698346f221af41da.svg",
-    "main.be07e7c3.css.map": "/static/css/main.be07e7c3.css.map",
-    "main.4023d5a5.js.map": "/static/js/main.4023d5a5.js.map",
-    "453.b4d9725c.chunk.js.map": "/static/js/453.b4d9725c.chunk.js.map"
+    "main.css": "/inai-gaming/static/css/main.1f521cf0.css",
+    "main.js": "/inai-gaming/static/js/main.1f0743bd.js",
+    "static/js/453.b4d9725c.chunk.js": "/inai-gaming/static/js/453.b4d9725c.chunk.js",
+    "static/media/heroImg.png": "/inai-gaming/static/media/heroImg.ae299ef225bc353b78bc.png",
+    "static/media/home-back.png": "/inai-gaming/static/media/home-back.43dc8ca4bc274194c487.png",
+    "static/media/contact.png": "/inai-gaming/static/media/contact.ba0a7be9b955f0a1b138.png",
+    "static/media/money (1).svg": "/inai-gaming/static/media/money (1).6b1afc69517ae2d8a73f34284a51931b.svg",
+    "static/media/bar-chart.svg": "/inai-gaming/static/media/bar-chart.9715d774298a9529067dfc49fcc2e75a.svg",
+    "index.html": "/inai-gaming/index.html",
+    "static/media/tick.svg": "/inai-gaming/static/media/tick.ccc5698346f221af41da.svg",
+    "main.1f521cf0.css.map": "/inai-gaming/static/css/main.1f521cf0.css.map",
+    "main.1f0743bd.js.map": "/inai-gaming/static/js/main.1f0743bd.js.map",
+    "453.b4d9725c.chunk.js.map": "/inai-gaming/static/js/453.b4d9725c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be07e7c3.css",
-    "static/js/main.4023d5a5.js"
+    "static/css/main.1f521cf0.css",
+    "static/js/main.1f0743bd.js"
   ]
 }
