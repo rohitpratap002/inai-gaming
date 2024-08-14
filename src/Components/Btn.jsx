@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Btn = ({text="button",extraText=true,size="s",scrollTo=""}) => {
+const Btn = ({type="",text="button",extraText=true,size="s",scrollTo=""}) => {
      
     const getSize =()=>{
         if(size==='s'){
@@ -27,7 +27,7 @@ const Btn = ({text="button",extraText=true,size="s",scrollTo=""}) => {
     }
   return (
     <div className='btn-div'>
-        <button className="btn-primary" onClick={scrollTo} style={getSize()}> {text} <i className="fa-solid fa-chevron-right"></i></button>
+        <button type={type} className="btn-primary" onClick={scrollTo} style={getSize()}> {text} <i className="fa-solid fa-chevron-right"></i></button>
         {extraText?<p style={getPSize()}>Starting at just ₹30K/Month</p>:<></>}
     </div>
   )

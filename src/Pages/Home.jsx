@@ -162,6 +162,8 @@ const Home = () => {
     const handleForm =()=>{
         alert("Form Submitted")
     }
+    const passFun =()=>{}
+
 
     const handleScroll = () => {
         contactRef.current?.scrollIntoView({behavior: 'smooth'});
@@ -346,29 +348,29 @@ const Home = () => {
             </div>
             <div className="right">
                     <div className="back"></div>
-                    <form >
+                    <form onSubmit={handleForm}>
                         <label htmlFor="name" className="inp">
-                            <input type="text" id="name" placeholder="&nbsp;" />
+                            <input type="text" id="name" placeholder="&nbsp;" autoComplete='off' required/>
                             <span className="label">Full Name</span>
                         </label>
                         <label htmlFor="email" className="inp">
-                            <input type="text" id="email" placeholder="&nbsp;" />
+                            <input type="text" id="email" placeholder="&nbsp;" autoComplete='off' required/>
                             <span className="label">Business Email</span>
                         </label>
                         <label htmlFor="tCountry" className="inp">
-                            <input type="text" id="tCountry" placeholder="&nbsp;" />
+                            <input type="text" id="tCountry" placeholder="&nbsp;" autoComplete='off' required />
                             <span className="label">Targeted Country</span>
                         </label>
                         <label htmlFor="country" className="inp">
-                            <input type="text" id="country" placeholder="&nbsp;" />
+                            <input type="text" id="country" placeholder="&nbsp;" autoComplete='off' required />
                             <span className="label">Which industry you are in?</span>
                         </label>
                         <label htmlFor="revenue" className="inp">
-                            <input type="text" id="revenue" placeholder="&nbsp;" />
+                            <input type="text" id="revenue" placeholder="&nbsp;" autoComplete='off' required />
                             <span className="label">Revenue (Yearly)</span>
                         </label>
                         
-                        <Btn scrollTo={handleForm} text='Get Now' size='s' extraText={false} />
+                        <Btn type="submit" scrollTo={passFun} text='Get Now' size='s' extraText={false} />
                     </form>
             </div>
         </div>
