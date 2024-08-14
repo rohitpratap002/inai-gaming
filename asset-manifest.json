@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/inai-gaming/static/css/main.1f521cf0.css",
-    "main.js": "/inai-gaming/static/js/main.1f0743bd.js",
+    "main.js": "/inai-gaming/static/js/main.cb11182d.js",
     "static/js/453.b4d9725c.chunk.js": "/inai-gaming/static/js/453.b4d9725c.chunk.js",
     "static/media/heroImg.png": "/inai-gaming/static/media/heroImg.ae299ef225bc353b78bc.png",
     "static/media/home-back.png": "/inai-gaming/static/media/home-back.43dc8ca4bc274194c487.png",
@@ -11,11 +11,11 @@
     "index.html": "/inai-gaming/index.html",
     "static/media/tick.svg": "/inai-gaming/static/media/tick.ccc5698346f221af41da.svg",
     "main.1f521cf0.css.map": "/inai-gaming/static/css/main.1f521cf0.css.map",
-    "main.1f0743bd.js.map": "/inai-gaming/static/js/main.1f0743bd.js.map",
+    "main.cb11182d.js.map": "/inai-gaming/static/js/main.cb11182d.js.map",
     "453.b4d9725c.chunk.js.map": "/inai-gaming/static/js/453.b4d9725c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f521cf0.css",
-    "static/js/main.1f0743bd.js"
+    "static/js/main.cb11182d.js"
   ]
 }
